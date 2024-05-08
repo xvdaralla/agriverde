@@ -2,7 +2,7 @@
 setTimeout(function() {
     var overlay = document.getElementById('overlay');
     overlay.parentNode.removeChild(overlay);
-}, 3); // 3000 milissegundos = 3 segundos
+}, 1500); // 3000 milissegundos = 3 segundos
 
 document.getElementById('botao').addEventListener('click', function() {
     var menu = document.getElementById('menu');
